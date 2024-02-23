@@ -26,16 +26,21 @@ body::before {
 }
 
 a {
-  color: #C5A880;
+  color: #18d26e;
   text-decoration: none;
 }
 
 a:hover {
-  color: #E6E6E6;
+  color: #e6e6e6;
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -63,7 +68,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
-#header h1 a, #header h1 a:hover {
+#header h1 a,
+#header h1 a:hover {
   color: #fff;
   line-height: 1;
   display: inline-block;
@@ -75,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #C5A880;
+  border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
 }
 #header img {
@@ -100,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
 }
 #header .social-links a:hover {
-  background: #C5A880;
+  background: #18d26e;
 }
 @media (max-width: 992px) {
   #header h1 {
@@ -129,7 +135,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   background: rgba(0, 0, 0, 0.9);
 }
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links,
+#header.header-top h2 {
   display: none;
 }
 #header.header-top h1 {
@@ -175,7 +182,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li + li {
   margin-left: 30px;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -187,7 +195,8 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
@@ -199,16 +208,21 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #C5A880;
+  background-color: #18d26e;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+.navbar a:hover:before,
+.navbar li:hover > a:before,
+.navbar .active:before {
   visibility: visible;
   width: 25px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #fff;
 }
 
@@ -271,7 +285,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile li + li {
   margin: 0;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   font-size: 16px;
   position: relative;
 }
@@ -324,7 +339,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #C5A880;
+  background: #18d26e;
   margin: 4px 10px;
 }
 .section-title p {
@@ -343,7 +358,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #C5A880;
+  color: #18d26e;
 }
 .about-me .content ul {
   list-style: none;
@@ -360,7 +375,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #C5A880;
+  color: #18d26e;
   line-height: 0;
 }
 .about-me .content p:last-child {
@@ -396,7 +411,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #C5A880;
+  background-color: #18d26e;
 }
 
 /*--------------------------------------------------------------
@@ -405,7 +420,7 @@ section .container {
 .relevant .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #C5A880;
+  color: #18d26e;
 }
 .relevant .content ul {
   list-style: none;
@@ -422,7 +437,7 @@ section .container {
 .relevant .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #C5A880;
+  color: #18d26e;
   line-height: 0;
 }
 .relevant .content p:last-child {
@@ -478,7 +493,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #C5A880;
+  color: #18d26e;
   margin-bottom: 10px;
 }
 .experience .experience-item h5 {
@@ -506,8 +521,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #C5A880;
-  border: 2px solid #C5A880;
+  background: #18d26e;
+  border: 2px solid #18d26e;
 }
 
 /*--------------------------------------------------------------
@@ -538,8 +553,9 @@ section .container {
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
-.projects #projects-flters li:hover, .projects #projects-flters li.filter-active {
-  background: #C5A880;
+.projects #projects-flters li:hover,
+.projects #projects-flters li.filter-active {
+  background: #18d26e;
 }
 .projects #projects-flters li:last-child {
   margin-right: 0;
@@ -628,7 +644,7 @@ section .container {
   transition: 0.3s;
 }
 .projects .projects-wrap .projects-links a:hover {
-  color: #C5A880;
+  color: #18d26e;
 }
 .projects .projects-wrap:hover::before {
   top: 0;
@@ -707,7 +723,7 @@ section .container {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .projects-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #C5A880;
+  background-color: #18d26e;
 }
 
 /*--------------------------------------------------------------
@@ -721,7 +737,7 @@ section .container {
 }
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #C5A880;
+  color: #18d26e;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -753,7 +769,7 @@ section .container {
   transition: 0.3s;
 }
 .contact .info-box .social-links a:hover {
-  color: #C5A880;
+  color: #18d26e;
 }
 
 @-webkit-keyframes animate-loading {
@@ -795,13 +811,12 @@ section .container {
   }
 }
 .credits a {
-  color: #C5A880;
+  color: #18d26e;
   transition: 0.3s;
 }
 .credits a:hover {
   color: #fff;
 }
-
 
 /*--------------------------------------------------------------
 # Error 404
